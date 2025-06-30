@@ -19,7 +19,7 @@ body{
   }
   
   span.gold-title {
-      font-size: 38px !important;
+      font-size: 38px;
       margin: -10px 0;
       color:orange;
   }
@@ -66,3 +66,12 @@ body{
   .cd-headline.clip b.is-visible {
     opacity: 1;
   }
+
+  @media (max-width: 480px) {
+  span.gold-title {
+      font-size: 20px;
+  }
+   .dynamic-title {
+    font-size: 20px;
+  }
+}
